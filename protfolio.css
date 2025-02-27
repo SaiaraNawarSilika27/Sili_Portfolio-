@@ -12,7 +12,7 @@
    color: white;
    padding: 15px 20px;
    border:0;
-   border-color: non;
+   border-color: none;
    border-radius: 5px;
    font-weight: 800;
    cursor: pointer;
@@ -239,5 +239,42 @@ textarea {
   resize: none;
 }
 
+.hide 
+{
+  display: none;
+}
+ @media screen and (max-width:576px) {
+  .what-i-do-items ,.both-section,.contract,.contract1,.about-item,.banner,nav
+  {
+    flex-direction: column;
+  }
+  
+  .banner
+  {
+    margin : 20px;
 
- 
+    
+  }
+  
+  .my-projects, .what-i-do, .about,.about-item
+  {
+    padding: 20px;
+    
+  }
+  
+  .header1
+  {
+    background-image: none;
+  }
+  .banner-image1 
+  {
+    width: 100%;
+    
+  }
+  .banner-text
+  {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+  }
+ }
